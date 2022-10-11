@@ -28,8 +28,6 @@ public class StopWatch {
     }
 
     public long getElapsedTime() {
-        long miliSecond = endTime.getTime() - startTime.getTime();
-
-        return miliSecond;
+         return this.getEndTime().getTime() - this.getStartTime().getTime();
     }
 }

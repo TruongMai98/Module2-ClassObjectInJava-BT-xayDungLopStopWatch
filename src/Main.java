@@ -1,11 +1,11 @@
 import java.time.LocalTime;
+import java.util.Date;
 
 public class Main {
     public static void main(String[] args) {
-        LocalTime start = LocalTime.now();
-
-
+//        Date start = new Date();
         StopWatch newStopWatch = new StopWatch();
+
         System.out.println("thoi gian bat dau");
         newStopWatch.start();
         System.out.println(newStopWatch.getStartTime());
